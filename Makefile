@@ -16,4 +16,5 @@ read.o: read.c read.h array.h tree.h
 
 string_functions.o: string_functions.c string_functions.h
 
-
+clean:
+	rm -f dict2 dict3 *.o
