@@ -18,3 +18,4 @@ string_functions.o: string_functions.c string_functions.h
 
 clean:
 	rm -f dict2 dict3 *.o
+
