@@ -1,6 +1,6 @@
 Autocomplete Lookup
 
-This repository contains the code and report for COMP20003 Assignment 2, focusing on implementing autocomplete lookup using two different data structures: a sorted array and a radix tree.
+This repository contains the code and report for the Algorithms and Data Structures Subjec, focusing on implementing autocomplete lookup using two different data structures: a sorted array and a radix tree.
 
 ## Project Overview
 
