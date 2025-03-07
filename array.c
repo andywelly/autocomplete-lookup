@@ -20,7 +20,6 @@ dynamic_array_t *create_array() {
     // dynamically allocate memory for the struct
     dynamic_array_t* array = (dynamic_array_t*)malloc(sizeof(dynamic_array_t));
     assert(array);
-
     // initialise values
     array -> data = NULL;
     array -> size = 0;
@@ -82,10 +81,9 @@ int binary_search(const dynamic_array_t* array, const char* trading_name) {
         
         // Find the middle value
         int mid = low + (high - low) / 2;
-
         // Compare trading_name query to the middle value
         int cmp = strcmp(trading_name, array -> data[mid] -> trading_name); 
-
+        
         if (cmp == 0) {
 
             // Create temporary value to check if any identical values after
