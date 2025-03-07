@@ -5,7 +5,6 @@ string_functions.c: Definition of functions to work with strings
 
 #include "string_functions.h"
 
-
 // Custom strcmp function, same as strcmp, except checks for byte_comparisons
 
 int strcmp_count(const char *query, const char *str2, int *comparison_count) {
